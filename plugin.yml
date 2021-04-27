@@ -10,9 +10,10 @@ mcpe-protocol:
 - 431
 version: 1.1
 main: vixikhd\skywars\SkyWars
-author: [GamakCZ, MasterCraft145]
+author: GamakCZ
+Remake: MasterCraft145
 description: SkyWars minigame plugin Remake By MasterCraft145
-website: https://bit.ly/YTMasrerMC145
+website: https://github.com/ArcherMCYT/SkyWarsMC-PRO-v1
 
 extensions: [mysqli, yaml, json, zip]
 softdepend: [EconomyAPI]
