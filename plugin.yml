@@ -1,0 +1,67 @@
+name: SkyWarsMC-PRO
+api: 3.0.0
+mcpe-protocol:
+- 361
+- 388
+- 389
+- 390
+- 407
+- 428
+- 431
+version: 1.1
+main: vixikhd\skywars\SkyWars
+author: [GamakCZ, MasterCraft145]
+description: SkyWars minigame plugin Remake By MasterCraft145
+website: https://bit.ly/YTMasrerMC145
+
+extensions: [mysqli, yaml, json, zip]
+softdepend: [EconomyAPI]
+depend: [Specter, SoulsAPI]
+
+permissions:
+  sw.cmd:
+    description: Permission to all SkyWars commands
+    default: op
+    children:
+      sw.cmd.help:
+        description: Permission for /sw help
+        default: op
+      sw.cmd.create:
+        description: Permission for /sw create
+        default: op
+      sw.cmd.remove:
+        description: Permission for /sw remove
+        default: op
+      sw.cmd.set:
+        description: Permission for /sw set
+        default: op
+      sw.cmd.arenas:
+        description: Permission for /sw arenas
+        default: op
+      sw.cmd.start:
+        description: Permission for /sw start
+        default: op
+      sw.cmd.test:
+        description: Permission for /sw test
+        default: true
+      sw.cmd.souls:
+        description: Permission for /sw souls
+        default: true
+      sw.cmd.shop:
+        description: Permission for /sw shop
+        default: true
+      sw.cmd.kick:
+        description: Permission for /sw kick
+        default: op
+      sw.cmd.leave:
+        description: Permission for /sw leave
+        default: true
+      sw.cmd.join:
+        description: Permission for /sw join
+        default: true
+      sw.cmd.random:
+        description: Permission for /sw random
+        default: true
+      sw.kit:
+        description: Permission for all the kits
+        default: op
